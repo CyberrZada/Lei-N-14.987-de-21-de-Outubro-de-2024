@@ -13,12 +13,18 @@
     padding: 20px;
   }
   .header {
-    text-align: center;
+    text-align: left;
     margin-bottom: 30px;
   }
 
   .logo {
-    max-width: 200px;
+    max-width: 150px;
+    height: auto;
+  }
+
+  .mobile-logo {
+    max-width: 40px;
+    display: none;
   }
   
   .lei-container {
@@ -71,6 +77,14 @@
   }
   
   @media (max-width: 768px) {
+
+  .desktop-logo {
+    display:none;
+  }
+
+  .mobile-logo {
+    display: block;
+  }
     .lei-container {
       padding: 20px;
     }
